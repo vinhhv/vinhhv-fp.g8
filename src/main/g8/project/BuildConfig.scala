@@ -4,7 +4,7 @@ object BuildConfig {
   val appVersion = "0.0.1-SNAPSHOT"
 
   /** The name of this application */
-  val appName = "<FILL_ME>"
+  val appName = "$name"
 
   /** Organization name */
   val organization = "io.vinhhv"
