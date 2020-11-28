@@ -6,9 +6,9 @@ lazy val `root` = project.
   .in(file("."))
   .settings(ScalaConfig.commonSettings)
   .settings(libraryDependencies ++= Dependencies.common.value)
-  .settings(moduleName := "$name")
-  .settings(name := "$name")
-  .settings(mainClass in (Compile, run) := Some("io.vinhhv.$name"))
+  .settings(moduleName := "$name$")
+  .settings(name := "$name$")
+  .settings(mainClass in (Compile, run) := Some("io.vinhhv.$name$"))
   .settings(
       libraryDependencies ++= Dependencies.server.value
     )
