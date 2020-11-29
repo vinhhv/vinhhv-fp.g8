@@ -2,7 +2,7 @@ import sbt._
 import sbt.Keys._
 
 
-lazy val `root` = project.
+lazy val `root` = project
   .in(file("."))
   .settings(ScalaConfig.commonSettings)
   .settings(libraryDependencies ++= Dependencies.common.value)
