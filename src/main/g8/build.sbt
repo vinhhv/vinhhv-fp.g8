@@ -8,5 +8,5 @@ lazy val `root` = project
   .settings(libraryDependencies ++= Dependencies.common.value)
   .settings(moduleName := "$name$")
   .settings(name := "$name$")
-  .settings(mainClass in (Compile, run) := Some("io.vinhhv.$name;format="word"$"))
+  .settings(mainClass in (Compile, run) := Some("io.vinhhv.$module$"))
   .settings(libraryDependencies ++= Dependencies.server.value)
